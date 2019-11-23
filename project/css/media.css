@@ -1,0 +1,464 @@
+@media (max-width: 1120px) {
+    .h2-object {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .object-link{
+        float: none;
+        margin-top: 20px;
+    }
+    .h2-news {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .shadow1 {
+        position: absolute;
+        margin: 0;
+    }
+    .shadow2 {
+        position: inherit;
+        margin: 0;
+    }
+
+    .gg .slick-slide{
+        display: flex!important;
+        justify-content: center;
+    }
+    .news-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .news-item {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1065px) {
+    .header {
+        display: block;
+    }
+
+    .heading {
+        padding: 0;
+    }
+
+    .container {
+        width: inherit;
+    }
+
+    .header-title {
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .nav_logo {
+        display: inline-block;
+        padding-left: 20px;
+    }
+
+    .nav_logo img {
+        width: 50%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .btn__menu {
+        display: block;
+        width: 40px;
+        transform: translateY(17px) translateX(-21px);
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background: #ffffff61;
+    }
+
+    .navigation li {
+        float: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.95);
+    }
+
+    .menu__list {
+        display: none;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.97);
+        top: 70px;
+        border-radius: 5px 5px 10px 10px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu__list a {
+        display: block;
+    }
+
+    .menu__list a:hover {
+        background-color: rgba(54, 129, 231, 0.66);
+        color: white;
+    }
+
+    .navigation_green {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .btn__menu div:hover {
+        box-shadow: 0px 0px 9px 1px #fff;
+    }
+
+    .services-descr {
+        padding: 0 70px;
+    }
+
+    .services {
+        padding: 100px 20px 50px 20px;
+    }
+
+    .h2-services {
+        text-align: center;
+    }
+
+    .services-items {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .services-item {
+        margin: 0 1.54%;
+    }
+
+    .slick-slide {
+        padding: 0 20px;
+    }
+
+    .payment-headline {
+        width: 507px;
+        font-size: 23px;
+    }
+    .news-wrapper {
+        margin-left: 11px;
+    }
+    .popup{
+        left: 8%;
+        margin: 0 60px 0 0;
+    }
+    .reg_form-text {
+        width: 50%;
+    }
+    .reg_form input[type=text] {
+        width: 31%;
+    }
+    .reg_form-text_marg {
+        margin-left: 13%;
+    }
+    .reg-form-check {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .menu-footer{
+        margin-left: 0;
+    }
+}
+    .nav-footer{
+        padding: 0;
+    }
+@media (max-width: 790px) {
+
+    .header-title {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header-title h1 {
+        padding-top: 45px;
+        font-size: 28px;
+        margin: 0 20px;
+    }
+    .header-title p {
+        font-size: 13px;
+        padding: 0 20px;
+    }
+    .header-bts{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 20px;
+    }
+
+    .all-services-link {
+        padding-right: 0;
+        margin-top: 20px;
+        width: auto;
+        float: none;
+    }
+    .payment{
+        height: auto;
+    }
+    .a1{
+        display: flex!important;
+        flex-direction: column;
+    }
+    .a1-h2 {
+        text-align: center;
+        margin: 30px auto 10px auto;
+    }
+    .payment-p {
+        margin: 0 auto 20px auto;
+    }
+
+    .payment-bt {
+        position: initial;
+        margin: 0 auto 10px auto;
+    }
+    .slick-dots {
+        position: static!important;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: 0!important;
+    }
+    .reg_form-text {
+        margin: 0 auto;
+        font-size: 24px;
+    }
+    .reg_form input[type=text] {
+        font-size: 15px;
+    }
+    .footer-logo {
+        width: 100%;
+        text-align: center;
+        display: block;
+        order: 1;
+    }
+    .footer-logo {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 620px) {
+    .reg_form-text {
+        width: 76%;
+    }
+    .reg_form input[type=text] {
+        display: flex;
+        margin: 0 auto;
+        width: 62%;
+    }
+
+}
+@media (max-width: 560px) {
+    .payment-headline {
+        width: 455px;
+        font-size: 16px;
+    }
+
+    .shadow1 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90%;
+    }
+    .shadow2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .object-link_text {
+        width: 280px;
+        font-size: 12px;
+    }
+    .news-item {
+        margin-right: 0;
+    }
+    .input-left {
+        margin-right: 0;
+    }
+    .input-right {
+        margin-right: 0;
+    }
+
+    .questions-input {
+        outline: none;
+        background: none;
+        width: 100%;
+    }
+    .question-text {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .q-form {
+        display: flex;
+        margin: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .q-form__btn {
+        display: inline-block;
+        margin: 35px auto 1px;
+    }
+    .questions-check {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 510px){
+    .payment-headline {
+        width: 338px;
+        font-size: 15px;
+    }
+    .a2{
+    display: flex!important;
+    flex-direction: column;
+    }
+    .reg_form-text {
+        font-size: 19px !important;
+    }
+    .reg-form-label {
+        font-size: 9px;
+    }
+    .popup {
+        margin: 0 30px 0 0;
+    }
+    .reg-form-label {
+        width: 60%;
+    }
+    .reg-form-check label:before {
+        float: left;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .header-title h1 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    .header-title p {
+        font-size: 13px;
+        padding: 0 40px;
+    }
+
+    .header-title p {
+        text-align: justify;
+    }
+
+    .bt-header {
+        font-size: 13px;
+    }
+
+    .services-item img {
+        max-width: 272px;
+    }
+
+    .services-descr {
+        padding: 0;
+    }
+
+    .payment-headline {
+        width: 275px;
+        font-size: 13px;
+    }
+
+    .payment-p {
+        font-size: 11px;
+    }
+
+    .payment-bt {
+        font-size: 14px;
+        width: 170px;
+        height: 37px;
+    }
+    .a2 p{
+        width: inherit;
+        text-align: center;
+    }
+    .shadow1 {
+        width: 90%;
+    }
+    .shadow2 {
+        width: 100%;
+    }
+    .object-link_text {
+        width: 214px;
+        font-size: 10px;
+    }
+    .news-item {
+        margin-right: 10px;
+        width: auto;
+    }
+    .news-item img {
+        width: 100%;
+    }
+    .news-text {
+        width: 85%;
+    }
+    .question-text {
+        font-size: 11px;
+    }
+    .h2-questions {
+        font-size: 26px;
+    }
+    .popup h2{
+        font-size: 14px;
+    }
+    .reg_form-text {
+        font-size: 16px !important;
+    }
+    .reg-form-label {
+        font-size: 8px;
+    }
+    .footer_col {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-footer{
+        margin-top: 30px;
+    }
+    .footer-contacts{
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 1110px) {
+    .news-wrapper{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .news-item {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 1066px) {
+    .section{
+        display: none;
+    }
+    .nav_logo{
+        display: none;
+    }
+    .navigation ul{
+        display: flex!important;
+    }
+}
+

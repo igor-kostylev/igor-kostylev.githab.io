@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<div class="header">
+    <div class="container">
+        <div class="heading">
+            <div class="logo">
+                <img src="img/head-logo.png" alt="head-logo">
+            </div>
+            <nav class="navigation">
+                <div class="nav_logo">
+                    <img src="img/head-logo.png" alt="head-logo">
+                </div>
+                <div class="section">
+                    <a href="#" class="menu-btn">
+                        <span></span>
+                    </a>
+                </div>
+                <ul class="menu__list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Объекты</a></li>
+                    <li><a href="#">Лицензии</a></li>
+                    <li><a href="#">Тендеры</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li class="navigation_green "><a class="show_popup" rel="reg_form" href="#">Позвонить Вам?</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="popup reg_form">
+            <a class="close" href="#"></a>
+            <h2>Заказать обратный звонок</h2>
+            <form method="post" action="#">
+                <p class="reg_form-text">Наш специалист свяжется с Вами в ближайшее время</p>
+                <input type="text" name="name"class="reg_form-text_marg" placeholder="ФИО">
+                <input type="text" id=phone1 name="tel" placeholder="8(000)000-0000">
+                <div class="reg-form-check">
+                    <input type="checkbox" id="reg-form-checkbox" name="check">
+                    <label for="reg-form-checkbox" class="reg-form-label">Соглашаюсь с политикой конфиденциальности</label>
+                </div>
+                <input type="submit" value="Заказать звонок">
+            </form>
+        </div>
+        <div class="header-title">
+            <h1>Строительно-ремонтная компания ООО «СМУ-2»</h1>
+            <p>ООО «СМУ-2» - строительно-ремонтная компания в Тюмени более чем с 7-летней историей. Созданное на материальной и технической базе, опыте нескольких предпринимателей,
+                строительно-монтажное управление продолжило их лучшие традиции и тенденции развития. </p>
+            <div class="header-bts">
+                <button class="bt-header bt-header_blue">Подробнее</button>
+                <button class="bt-header bt-header_border">Наши услуги</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="services">
+    <div class="container">
+        <div class="services-descr">
+            <div class="h2-services">
+                <h2>Наши услуги</h2>
+                <div class="all-services-link">
+                    <a href="#">Все услуги <span class="all-services-link_font"> > </span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-items">
+            <div class="services-item">
+                <a href="#">
+                    <img src="img/services-img1.png" alt="">
+                    <p>Генеральный подряд</p>
+                </a>
+            </div>
+            <div class="services-item services-item_padding">
+                <a href="#">
+                    <img src="img/services-img2.png" alt="">
+                    <p>Проектирование</p>
+                </a>
+            </div>
+            <div class="services-item">
+                <a href="#">
+                    <img src="img/services-img3.png" alt="">
+                    <p>Строительные работы</p>
+                </a>
+            </div>
+            <div class="services-item">
+                <a href="#">
+                    <img src="img/services-img4.png" alt="">
+                    <p>Натяжные работы</p>
+                </a>
+            </div>
+            <div class="services-item services-item_padding">
+                <a href="#">
+                    <img src="img/services-img5.png" alt="">
+                    <p>Отделочные работы</p>
+                </a>
+            </div>
+            <div class="services-item">
+                <a href="#">
+                    <img src="img/services-img6.png" alt="">
+                    <p>Обслуживание зданий и сооружений</p>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="payment">
+    <div class="container">
+        <div class="pay1">
+            <div class="a1">
+                <h2 class="a1-h2 payment-headline">Рассчитайте стоимость обслуживания здания или сооружения</h2></br>
+                <p class="payment-p">Онлайн калькулятор для рассчета стоимости.</p>
+                <button class="payment-bt">Расчитать</button></div>
+            <div class="a2">
+                <h2 class="a1-h2 payment-headline">Специально для тебя Олег </h2></br>
+                <p class="payment-p">Шоб не выёбывался.</p>
+                <button class="payment-bt">Ты лошара</button>
+            </div>
+                <div class="a3">456</div>
+                </div>
+    </div>
+</div>
+<div class="object">
+    <div class="container">
+        <div class="h2-object">
+            <h2>Выполненные объекты</h2>
+            <div class="object-link">
+                <a href="#">Все объекты <span class="object-link_font"> > </span> </a>
+            </div>
+        </div>
+            <div class="gg">
+                <div class="object-item">
+                    <div class="shadow1 shadow_hover">
+                        <a href="#">
+                            <div class="object-text">
+                                <p class="object-green">Объект 1</p>
+                                <p class="object-link_text">Комплексный ремонт помещений апарт-отеля Симпатико</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="object-item">
+                    <div class="shadow2 shadow_hover">
+                        <a href="#">
+                            <div class="object-text">
+                                <p class="object-green">Объект 2</p>
+                                <p class="object-link_text">Завершены работы: Ремонт квартиры под ключ в центре Тюмени</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="object-item">
+                    <div class="shadow1 shadow_hover">
+                        <a href="#">
+                            <div class="object-text">
+                                <p class="object-green">Объект 3</p>
+                                <p class="object-link_text">Комплексный ремонт помещений апарт-отеля Симпатико</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="object-item">
+                    <div class="shadow2 shadow_hover">
+                        <a href="#">
+                            <div class="object-text">
+                                <p class="object-green">Объект 4</p>
+                                <p class="object-link_text">Завершены работы: Ремонт квартиры под ключ в центре Тюмени</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+<div class="news">
+    <div class="container">
+        <div class="h2-news">
+            <h2>Новости</h2>
+        </div>
+        <div class="news-wrapper">
+            <div class="news-item">
+                <a href="single.html"><img src="img/news-img.png" alt="">
+                    <p class="news_blue">Статьи</p>
+                    <div class="news-headline">
+                        <p>Что представляют собой
+                            изыскания грунта?</p>
+                    </div>
+                    <div class="news-text">
+                        <p>Инженерно-геологические изыскания это спектр услуг,
+                            где подразумевается изучение свойств.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="news-item news-item_margin">
+                <a href="single.html"><img src="img/news-img.png" alt="">
+                    <p class="news_blue">Статьи</p>
+                    <div class="news-headline">
+                        <p>Что представляют собой
+                            изыскания грунта?</p>
+                    </div>
+                    <div class="news-text">
+                        <p>Инженерно-геологические изыскания это спектр услуг,
+                            где подразумевается изучение свойств.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="news-item">
+                <a href="single.html"><img src="img/news-img.png" alt="">
+                    <p class="news_blue">Статьи</p>
+                    <div class="news-headline">
+                        <p>Что представляют собой
+                            изыскания грунта?</p>
+                    </div>
+                    <div class="news-text">
+                        <p>Инженерно-геологические изыскания это спектр услуг,
+                            где подразумевается изучение свойств.</p>
+                    </div>
+                </a>
+            </div>
+<!--            <div class="hidden">-->
+                <div class="news-item hidden">
+                    <a href="single.html"><img src="img/news-img.png" alt="">
+                        <p class="news_blue">Статьи</p>
+                        <div class="news-headline">
+                            <p>Что представляют собой
+                                изыскания грунта?</p>
+                        </div>
+                        <div class="news-text">
+                            <p>Инженерно-геологические изыскания это спектр услуг,
+                                где подразумевается изучение свойств.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-item hidden">
+                    <a href="single.html"><img src="img/news-img.png" alt="">
+                        <p class="news_blue">Статьи</p>
+                        <div class="news-headline">
+                            <p>Что представляют собой
+                                изыскания грунта?</p>
+                        </div>
+                        <div class="news-text">
+                            <p>Инженерно-геологические изыскания это спектр услуг,
+                                где подразумевается изучение свойств.</p>
+                        </div>
+                    </a>
+                </div>
+<!--            </div>-->
+        </div>
+        <div class="news-all-news-bt">
+            <a class="news-bt"> Все новости </a>
+        </div>
+    </div>
+        </div>
+
+<div class="questions">
+    <div class="container">
+        <div class="questions-form">
+            <div class="h2-questions">
+                <h2>Остались Вопросы?</h2>
+                <p class="question-text">С удовольствием проконсультируем Вас.</p>
+            </div>
+            <form>
+            <div class="q-form ">
+            <input type="text" class="questions-input input-left" name="name" placeholder="Ваше имя">
+            <input type="text" class="questions-input input-right" id=phone2 name="tel" placeholder="Ваш телефон">
+                <div class="q-form__btn">
+                    <a class="questions-bt"> Отправить</a>
+                </div>
+                <div class="questions-check">
+                <input type="checkbox" id="questions-checkbox" name="check">
+                <label for="questions-checkbox" class="questions-label">Соглашаюсь с политикой конфиденциальности</label>
+            </div>
+        </div>
+                <div class="form-answer q-form-closed">
+                    <p>Спасибо, Ваша заявка принята</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="footer_col">
+            <div class="footer-logo">
+                <img src="img/footer-logo.png" class="footer-logo_cmy" alt="">
+                <p class="quote">© 2006-2019 Общество</br>
+                    с ограниченной
+                    ответственностью "СМУ-2" </p>
+                <div class="footer-social">
+                    <a href="#" class="footer-social_vk"><img src="img/footer-img_social_VK.png" alt=""></a>
+                    <a href="#" class="footer-social_fb"><img src="img/footer-img_social_FB.png" alt=""></a>
+                    <a href="#" class="footer-social_ok"><img src="img/footer-img_social_OK.png" alt=""></a>
+                </div>
+            </div>
+            <div class="menu-footer">
+                <ul class="footer-menu">
+                    <p>Клиентам</p>
+                    <li>
+                        <a href="#">О нас</a>
+                    </li>
+                    <li>
+                        <a href="#">Услуги</a>
+                    </li>
+                    <li>
+                        <a href="#">Цены</a>
+                    </li>
+                    <li>
+                        <a href="#">События</a>
+                    </li>
+                    <li>
+                        <a href="#">Лицензии</a>
+                    </li>
+                    <li>
+                        <a href="#">Тендеры</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-footer">
+                <ul class="footer-navigation">
+                    <p>Навигация</p>
+                    <li>
+                        <a href="#">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a href="#">Наши Проекты</a>
+                    </li>
+                    <li>
+                        <a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <ul >
+                    <p>Контакты</p>
+                    <li>
+                        <a href="#">+8(3452)782-797</a>
+                    </li>
+                    <li>
+                        <a href="#">+8(908)871-61-81</a>
+                    </li>
+                    <li>
+                        <a href="#">dir@72stroi.ru</a>
+                    </li>
+                    <LI>
+                        <a href="#"></br>ул. Мельникова 83,</br>
+                            офис 101.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
