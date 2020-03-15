@@ -260,6 +260,14 @@ html{
     margin-top: 30px;
 }
 
+.slick-prev:before, .slick-next:before {
+    position: absolute;
+    bottom: 50%;
+    left: -2px;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+}
 .pay1 .slick-prev:before{
     content: '<';
     font-size: 40px;
@@ -313,6 +321,10 @@ html{
     margin-top: 50px;
     height: 386px;
 }
+.gg{
+    display: flex;
+    justify-content: space-between;
+}
 .h2-object{
     font-family: 'Montserrat', sans-serif;
     font-size: 28px;
@@ -340,8 +352,8 @@ html{
 }
 .object-item{
     position: relative;
-    display: inline-block;
-    float: left;
+    display: flex;
+    width: 500px;
 }
 .object-text{
     position: absolute;
@@ -375,7 +387,7 @@ html{
     box-shadow: inset 0px -139px 120px -30px #3E3F79;
     width: 496px;
     height: 273px;
-    margin-right: 32px;
+    margin: 0 10px;
 }
 
 .shadow_hover a{
@@ -390,9 +402,8 @@ html{
     background: url(../img/work-performed_img2.png);
     box-shadow: inset 0px -139px 120px -30px #3E3F79;
     width: 496px;
-    height: 274px;
-    margin: auto;
-    margin-right: 32px;
+    height: 273px;
+    margin: 0 10px;
 }
 .news{
     padding-top: 50px;
@@ -622,6 +633,7 @@ html{
 }
 .footer{
   overflow: hidden;
+    padding-bottom: 50px;
     margin-top: -73px;
     background: #f1f1f1;
 }

@@ -296,6 +296,7 @@ span:hover::after {
     color: #ffffff;
     border: none;
     background: none;
+    transition: 0.5s;
 }
 .bt-header_blue{
     background-color: rgb(7, 166, 230);
@@ -425,6 +426,14 @@ span:hover::after {
 .a1-h2{
     margin-top: 30px;
 }
+.slick-prev:before, .slick-next:before {
+    position: absolute;
+    bottom: 50%;
+    left: -2px;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+}
 
 .pay1 .slick-prev:before{
     content: '<';
@@ -474,6 +483,10 @@ span:hover::after {
 .payment-bt:not(:hover) {
     transition: 0.8s;
 }
+.gg{
+    display: flex;
+    justify-content: space-between;
+}
 .object{
     overflow: hidden;
     margin-top: 50px;
@@ -506,8 +519,8 @@ span:hover::after {
 }
 .object-item{
     position: relative;
-    display: inline-block;
-    float: left;
+    display: flex;
+    width: 500px;
 }
 .object-text{
     position: absolute;
@@ -541,7 +554,7 @@ span:hover::after {
     box-shadow: inset 0px -139px 120px -30px #3E3F79;
     width: 496px;
     height: 273px;
-    margin-right: 32px;
+    margin: 0 10px;
 }
 
 .shadow_hover a{
@@ -557,8 +570,8 @@ span:hover::after {
     background: url(../img/work-performed_img2.png);
     box-shadow: inset 0px -139px 120px -30px #3E3F79;
     width: 496px;
-    height: 274px;
-    margin-left: 20px;
+    height: 273px;
+    margin: 0 10px;
 }
 .reviews-slider .slick-list {
     margin: 0 -50px;
@@ -681,9 +694,7 @@ span:hover::after {
     box-shadow: 0px 13px 32px 0px rgba(0, 0, 2, 0.14);
 }
 
-.questions{
 
-}
 .news-all-news-bt{
     display: flex;
     justify-content: center;
@@ -697,17 +708,21 @@ span:hover::after {
 .news-all-news-bt a:not(:hover){
     transition: 0.6s;
 }
-.questions-form{
+.questions{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+}
+.questions-form{
+    position: relative;
     margin-top: 45px;
     color: white;
-    background: url(../img/form-bg.png) center center / cover no-repeat;
+    background: url("../img/form-bg.png");
+    height: 146px;
     border-radius: 7px;
 }
 .h2-questions{
-    padding: 47px 0 0 0;
+    padding: 47px 0px 0px 33px;
+    float: left;
+    display: inline-block;
     font-size: 28px;
     font-weight: bold;
 }
@@ -717,11 +732,9 @@ span:hover::after {
     padding-top: 14px;
 }
 .q-form{
+    float: right;
     margin-top: 50px;
-    padding-bottom: 20px;
-}
-.q-form__btn{
-    display: inline-block;
+    padding-right: 70px;
 }
 .questions-input{
     outline: none;
@@ -761,14 +774,13 @@ span:hover::after {
     box-shadow: 0px 0px 12px 6px #2629dad1;
     transition: 0.6s;
 }
-
 .questions-bt:not(:hover) {
     transition: 0.8s;
 }
 .questions-check{
     margin-top: 10px;
 }
-.questions-label {
+.questions-label{
     color: #aeaec1;
     font-size: 9px;
     cursor: pointer;
@@ -779,7 +791,7 @@ span:hover::after {
 #questions-checkbox{
     display: none;
 }
-.questions-check  label:before {
+.questions-check label:before {
     position: relative;
     top: 1px;
     margin-right: 5px;
@@ -810,17 +822,10 @@ span:hover::after {
     font: bold 19px 'Montserrat', sans-serif;;
 }
 .footer{
-    position: relative;
     overflow: hidden;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     margin-top: -73px;
     background: #f1f1f1;
-    z-index: -1;
-}
-.footer_col{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 .footer-logo{
     margin-top: 100px;
@@ -932,4 +937,3 @@ span:hover::after {
     color: rgb(53, 55, 88);
     font-weight: bold;
 }
-

@@ -293,7 +293,7 @@ html{
 .news-navigation{
     list-style: none;
     position: relative;
-    left: 42%;
+    left: 45%;
     float: left;
     font-family: 'Montserrat', sans-serif;
 }
@@ -438,6 +438,7 @@ html{
     overflow: hidden;
     margin-top: -73px;
     background: #f1f1f1;
+    padding-bottom: 50px;
 }
 .footer-logo{
     margin-top: 100px;

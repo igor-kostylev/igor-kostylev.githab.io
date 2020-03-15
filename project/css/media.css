@@ -174,9 +174,9 @@
         margin-left: 0;
     }
 }
-    .nav-footer{
-        padding: 0;
-    }
+    /*.nav-footer{*/
+    /*    padding: 0;*/
+    /*}*/
 @media (max-width: 790px) {
 
     .header-title {

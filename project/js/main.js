@@ -43,33 +43,34 @@ $(function () {
 
     });
 });
-$(document).ready(function(){
-    $('.gg').slick({
-        // autoplay: true,
-        // autoplaySpeed: 2000,
-        // variableWidth: true,
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        responsive: [
-            {
-                breakpoint: 1110,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: false,
-                    infinite: true,
-                    dots: true
+    $(document).ready(function(){
+        $('.gg').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            // variableWidth: true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            speed:1000,
+            responsive: [
+                {
+                    breakpoint: 1110,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        infinite: true,
+                        dots: true
+                    }
                 }
-            }
-        ]
-});
-});
+            ]
+    });
+    });
 $(document).ready(function(){
     $('.pay1').slick({
-      /*  autoplay: true,
-        autoplaySpeed: 3000,*/
-        speed: 2000,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 1000,
         infinite: true,
         arrows:false,
         dots: true
