@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <path d="M32,64 C14.4,64 0,49.6 0,32 C0,14.4 14.4,0 32,0 C49.6,0 64,14.4 64,32 C64,49.6 49.6,64 32,64 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+            <path d="M21.0499237,18 L44,18 C45.6568542,18 47,19.3431458 47,21 L47,44 C47,45.6568542 45.6568542,47 44,47 L21.4295393,47 C19.7919872,47 18.456972,45.6868374 18.4299478,44.0495083 L18.0503322,21.0495083 C18.0229895,19.3928797 19.3437867,18.0277512 21.0004153,18.0004085 C21.0169167,18.0001362 21.0334201,18 21.0499237,18 Z" id="Path-3" fill="#FFFFFF"></path>
+            <text id="in" font-family="TamilMN-Bold, Tamil MN" font-size="27" font-weight="bold" fill="#000000">
+                <tspan x="20.2392578" y="42">in</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
