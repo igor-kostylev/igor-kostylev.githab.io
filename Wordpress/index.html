@@ -16,8 +16,8 @@
     <script type="text/javascript">
         ymaps.ready(function(){
             // Указывается идентификатор HTML-элемента.
-            var armyansk_map = new ymaps.Map("first_map", {
-                center: [46.103439, 33.681732],
+            var krd_map = new ymaps.Map("first_map", {
+                center: [45.040196, 38.976025],
                 zoom: 14,
             });
             var location = ymaps.geolocation.get();
@@ -33,16 +33,16 @@
                 }
             );
 
-            var glyphIcon1 = new ymaps.Placemark([46.103439, 33.681732], {}, {
+            var glyphIcon1 = new ymaps.Placemark([45.040196, 38.976025], {}, {
                 preset: 'islands#redGlyphIcon',
                 iconGlyph: 'music',
                 iconGlyphColor: 'red'
             });
-            armyansk_map.geoObjects.add(glyphIcon1);
-            armyansk_map.balloon.open(armyansk_map.getCenter(), {
-                contentHeader: 'Траходром',
-                contentBody: 'Бунгало охуенного пацана' +
-                    ' <span style="color:red; font-weight:bold">Все телки Армянска пиздуте сюда</span>',
+            krd_map.geoObjects.add(glyphIcon1);
+            krd_map.balloon.open(krd_map    .getCenter(), {
+                contentHeader: 'Северная улица',
+                contentBody: 'Главная артерия города' +
+                    ' <span style="color:red; font-weight:bold">Краснодара</span>',
             });
         });
     </script>
