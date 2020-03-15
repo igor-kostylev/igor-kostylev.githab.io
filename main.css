@@ -13,14 +13,23 @@ body {
     margin: 0 auto;
 }
 .portfolio{
-
+    padding: 100px 0 0 0;
 }
 .portfolio__item{
-    display: flex;
+    display: inline-flex;
     align-items: end;
-    justify-content: space-between;
 }
 .portfolio__item img{
-    width: 300px;
-    object-fit: contain;
+    width: 200px;
+    object-fit: fill;
+    display: inline-flex;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-right: 30px;
+    border: 1px solid #0000001c;
+    transition: all 0.4s;
+}
+.portfolio__item img:hover{
+    transform: scale(1.2);
+
 }
