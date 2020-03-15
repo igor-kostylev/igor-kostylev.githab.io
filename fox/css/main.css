@@ -1,0 +1,375 @@
+html{
+    font-family: "Open Sans";
+    color: white;
+    background:  url('../img/bg-header.png') top center no-repeat, url('../img/bg-footer.png') bottom center no-repeat;
+    background-size: contain;
+
+    background-color: #1a2025;
+}
+.cooperation-scheme {
+    background:  url('../img/bg-middle.png')  center no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 57px;
+   font-family: "Open Sans semiBold";
+}
+h2{
+    font-size: 32px;
+    font-family: "Open Sans semiBold";
+}
+h3{
+    font-size: 24px;
+    font-family: "Open Sans semiBold";
+}
+header{
+    height: 721px;
+}
+footer{
+    clear: both;
+    height: 154px;
+}
+.container{
+    clear: both;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.heading {
+    padding-top: 42px;
+}
+.logo{
+    float: left;
+}
+nav {
+    float: right;
+    margin: 0 -45px 0 0;
+}
+.menu{
+    display: block;
+}
+
+.menu li{
+    font-family: "Open Sans";
+    float: left;
+    display: block;
+    margin-right: 47px;
+}
+.menu a {
+    color: rgba(255, 255, 255, 0.702);
+    text-decoration: none;
+    font-size: 12px;
+}
+.start-info{
+    margin-top: 200px;
+}
+.info-style{
+    font-family: "Open Sans";
+    color: rgba(255, 255, 255, 0.702);
+    width: 690px;
+    margin-top: 39px;
+    line-height: 28px;
+}
+.bt-work1{
+    margin: 40px 0px 0;
+    margin-right: 17px;
+    width: 170px;
+    height: 42px;
+    background: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.bt-work2, .bt-form, .bt-begin{
+    position: absolute;
+    margin: 40px 0px 0;
+    width: 144px;
+    height: 42px;
+    background: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+.bt-begin{
+    margin-top: 21px;
+}
+.bt-work2 img{
+    vertical-align: middle;
+}
+.pic0{
+    width: 24px;
+    margin-right: 12px;
+}
+#picc{
+    vertical-align: middle;
+    width: 24px;
+    margin-right: 12px;
+    margin-bottom: 0;
+}
+
+.h2-cont{
+    width: 700px;
+    line-height: 45px;
+}
+.advantages-blocks img{
+    width: 47px;
+    margin-top: 57px;
+    margin-bottom: 27px;
+}
+.advantages-block2{
+    font-family: "Open Sans";
+    font-size: 14px;
+    width: 291px;
+    float: left;
+    margin-left: 76px;
+    margin-right: 75px;
+}
+.advantages-block1{
+    font-family: "Open Sans";
+    font-size: 14px;
+    width: 291px;
+    float: left;
+
+}
+
+.advantages-block1 p{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 24px;
+}
+.advantages-block2 p{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.702);
+    line-height: 24px;
+}
+.stat{
+    clear: both;
+    display: inline-block;
+    margin-top: 75px;
+}
+.advantages-link{
+    font-size: 17px;
+    font-family: "Open Sans semiBold";
+}
+.advantages-img{
+    margin-top: 3px;
+    width: 22px;
+    position: absolute;
+    margin-left: 15px;
+}
+.stat1{
+    margin: 10pt;
+    padding: 10pt;
+    width: 141px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.statistics{
+    text-align: center;
+    margin-left: 211px;
+    margin-top: 175px;
+}
+.num{
+    font-family: "Open Sans Light";
+    font-size: 48px;
+    color: rgb(212, 211, 211);
+    line-height: 1.2;
+    text-align: center;
+}
+.stat-text{
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: rgb(171, 170, 170);
+    line-height: 1.5;
+}
+.adv-link{
+    text-decoration: none;
+    color: white;
+}
+.scheme{
+    margin-top: 150px;
+    text-align: center;
+    line-height: 2.0;
+}
+.scheme p{
+    color: rgb(200, 199, 199);
+}
+.steps img{
+    width: 47px;
+}
+.steps p{
+    font-size: 14px;
+    font-family: "Open Sans";
+    line-height: 1.714;
+    color: rgb(147, 153, 159);
+}
+.step1
+{
+    width: 33.333%;
+    float: left;
+    margin-bottom: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.bt-begin img {
+    vertical-align: middle;
+}
+
+.step1_row {
+    clear: both;
+}
+
+.step1 img,
+.step1 h3 {
+    margin-bottom: 20px;
+}
+.steps{
+    margin-top: 92px;
+    overflow: hidden
+}
+.programms{
+    margin-top: 258px
+}
+.programms h2{
+    text-align: center;
+}
+.programms img{
+    width: 55px;
+}
+.programms .prog{
+    margin-top: 55px;
+    width: 33.33%;
+    float: left;
+    padding-left: 117px;
+    box-sizing: border-box;
+
+}
+
+.prog img, .prog p{
+    display: inline-block;
+    vertical-align: middle;
+}
+.prog img{
+    box-shadow: 0px 12px 17px 0px rgba(0,0,0,0.5);
+}
+.prog p{
+    margin-left: 15px;
+}
+.left-form{
+    margin-top: 213px;
+    float: left;
+    width: 50%;
+}
+.right-form{
+    padding-top: 50px;
+    margin-top: 163px;
+    float: right;
+    width: 512px;
+    height: 433px;
+    background-color: rgb(38, 43, 47);
+    border-radius: 3px;
+}
+.left-form h2{
+    text-align: center;
+}
+.right-form h2{
+    text-align: center;
+}
+.vk{
+
+    width: 52px;
+}
+.tg {
+
+    width: 45px;
+}
+.wp{
+
+    width:31px;
+}
+.imgss{
+    text-align: center;
+    float: left;
+    padding-right: 47px;
+    line-height: 2.0;
+    padding-left: 48px;
+}
+.imgs{
+    margin-top: 60px;
+}
+.inpt{
+    outline: none;
+    border: none;
+    border-bottom: inset;
+    background: none;
+    border-bottom-color: #383d42;
+    border-bottom-width: 1px;
+    width: 374px;
+    height: 70px;
+    margin-left: 68px;
+    color: rgb(214, 213, 213);
+    font-size: 15px;
+    font-family: "Open Sans";
+}
+.check{
+    margin-left: 64px;
+    font-size: 13px;
+    margin-top: 10px;
+    color: rgb(145, 143, 143);
+}
+#check1 {
+    display: none;
+}
+.check label:before{
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+    content: "";
+    background: #383d42;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 4px;
+
+}
+.check input:checked + label:before{
+    background:#383d42 url("../img/check1.png") center no-repeat;
+      background-size: 10px;
+}
+.check label{
+    cursor: pointer;
+}
+.bt-form{
+    position: static;
+    margin: 0px auto;
+    display: block;
+    margin-top: 50px;
+}
+.bt-form img {
+    vertical-align: middle;
+}
+
+.foot{
+    clear: both;
+    display: inline-block;
+    width: 1024px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
