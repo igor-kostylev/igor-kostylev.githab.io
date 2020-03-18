@@ -88,3 +88,25 @@ li{
 .portfolio__text{
     position: relative;
 }
+
+@media (max-width: 1024px) {
+    .portfolio__item:hover {
+        transform: none;
+    }
+}
+@media (max-width: 685px) {
+    .portfolio__item {
+        margin: 25px 27px 25px 27px;
+    }
+}
+@media (max-width: 385px) {
+    .portfolio__items img {
+        width: 256px;
+    }
+    .portfolio__item ul {
+        font-size: 14px;
+    }
+    .portfolio__title {
+        font-size: 23px;
+    }
+}
