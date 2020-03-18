@@ -28,6 +28,7 @@ li{
 }
 .portfolio__items{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .portfolio__items img{
