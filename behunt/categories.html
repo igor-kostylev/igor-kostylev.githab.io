@@ -17,9 +17,9 @@
             <div class="header__logo logo">
                 <a href="https://igor-kostylev.github.io/behunt/">Behunt</a>
             </div>
-            <div class="header__item-input header__item-input-categories">
-                <input type="text" placeholder="Мне нужно">
-            </div>
+            <form class="header__item-input header__item-input-categories">
+                <input type="text" name="search" placeholder="Мне нужно">
+            </form>
             <div class="header__menu header__menu-categories">
                 <a class="header__menu-pro" href="#">Behunt</a>
                 <div class="header__menu-icons">
@@ -44,14 +44,14 @@
                     <a href="Javascript:;">
                         <svg>
                             <use xlink:href="sprite.svg#notification"></use>
-                            <span class="notification-pin"></span>
                         </svg>
+                        <span class="notification-pin"></span>
                     </a>
                 </div>
                 <div class="freelancers__border-user freelancers__border-user--categories">
                     <div class="freelancers__border-user--avatar freelancers__border-user--categories--avatar">
                         <a href="#">
-                            <img src="img/user-avatar.jpg" alt="">
+                            <img src="img/user-avatar.jpg" alt="Photo">
                         </a>
                     </div>
                     <div class="freelancers__border-user--name">
@@ -293,86 +293,89 @@
             </div>
         </div>
         <div class="all-categories__list">
-            <ol>
-                <div class="all-categories__list-title">
+            <div class="all-categories__list_item">
+                <div class="list-title">
                     Дизайн
                 </div>
-                <li><a href="#">Logo Design</a></li>
-                <li><a href="branding.html">Brand Style Guides</a></li>
-                <li><a href="#">Game Design</a>
-                    <ul>
-                        <li><a href="#">Character Design</a></li>
-                        <li><a href="#">Props & Objects</a></li>
-                        <li><a href="#">Backgrounds & Environments</a></li>
-                        <li><a href="#">UI & UX</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Graphics for Streamers</a></li>
-                <li><a href="#">Business Cards & Stationery</a></li>
-                <li><a href="#">Illustration</a></li>
-                <li><a href="#">Brochure Design</a></li>
-                <li><a href="#">Poster Design</a></li>
-                <li><a href="#">Flyer Design</a></li>
-                <li><a href="#">Book & Album Covers</a></li>
-                <li><a href="#">Podcast Cover Art</a></li>
-                <li><a href="#">Packaging Design</a></li>
-                <li><a href="#">Storyboards</a></li>
-                <li><a href="#">Web & Mobile Design</a>
-                    <ul>
-                        <li><a href="#">Wireframe UX</a></li>
-                        <li><a href="#">Graphic UI</a></li>
-                        <li><a href="#">Icons & Buttons</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Social Media Design</a></li>
-                <li><a href="#">Postcard Design</a></li>
-                <li><a href="#">Catalog Design</a></li>
-                <li><a href="#">Menu Design</a></li>
-                <li><a href="#">Invitation Design</a></li>
-                <li><a href="#">Portraits & Caricatures</a></li>
-                <li><a href="#">Cartoons & Comics</a></li>
-                <li><a href="#">Tattoo Design</a></li>
-                <li><a href="#">Banner Ads</a></li>
-                <li><a href="#">Photoshop Editing</a></li>
-                <li><a href="#">Architecture & Interior Design</a>
-                    <ul>
-                        <li><a href="#">Diagrams & Mapping</a></li>
-                        <li><a href="#">Virtual Staging</a></li>
-                        <li><a href="#">Planning & Design</a></li>
-                        <li><a href="#">3D Modeling & Rendering</a></li>
-                        <li><a href="#">2D Drawings & Floor Plans</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Landscape Design</a>
-                    <ul>
-                        <li><a href="#">Planning & Design</a></li>
-                        <li><a href="#">3D Modeling & Rendering</a></li>
-                        <li><a href="#">2D Drawings & Site Plans</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Building Information Modeling</a>
-                    <ul>
-                        <li><a href="#">BIM 4D Construction Simulation</a></li>
-                        <li><a href="#">BIM Online Training & Implementation</a></li>
-                        <li><a href="#">BIM Family Creation</a></li>
-                        <li><a href="#">BIM Coordination & Clash Detection</a></li>
-                        <li><a href="#">BIM 3D Modeling</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Character Modeling</a></li>
-                <li><a href="#">3D Models & Product Design</a></li>
-                <li><a href="#">T-Shirts & Merchandise</a></li>
-                <li><a href="#">Presentation Design</a></li>
-                <li><a href="#">Infographic Design</a></li>
-                <li><a href="#">Car Wraps</a></li>
-                <li><a href="#">Vector Tracing</a></li>
-                <li><a href="#">Other</a></li>
-            </ol>
-            <ol>
-            <ol>
-                <div class="all-categories__list-title">
+                <ol>
+                    <li><a href="#">Logo Design</a></li>
+                    <li><a href="branding.html">Brand Style Guides</a></li>
+                    <li><a href="#">Game Design</a>
+                        <ul>
+                            <li><a href="#">Character Design</a></li>
+                            <li><a href="#">Props & Objects</a></li>
+                            <li><a href="#">Backgrounds & Environments</a></li>
+                            <li><a href="#">UI & UX</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Graphics for Streamers</a></li>
+                    <li><a href="#">Business Cards & Stationery</a></li>
+                    <li><a href="#">Illustration</a></li>
+                    <li><a href="#">Brochure Design</a></li>
+                    <li><a href="#">Poster Design</a></li>
+                    <li><a href="#">Flyer Design</a></li>
+                    <li><a href="#">Book & Album Covers</a></li>
+                    <li><a href="#">Podcast Cover Art</a></li>
+                    <li><a href="#">Packaging Design</a></li>
+                    <li><a href="#">Storyboards</a></li>
+                    <li><a href="#">Web & Mobile Design</a>
+                        <ul>
+                            <li><a href="#">Wireframe UX</a></li>
+                            <li><a href="#">Graphic UI</a></li>
+                            <li><a href="#">Icons & Buttons</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Social Media Design</a></li>
+                    <li><a href="#">Postcard Design</a></li>
+                    <li><a href="#">Catalog Design</a></li>
+                    <li><a href="#">Menu Design</a></li>
+                    <li><a href="#">Invitation Design</a></li>
+                    <li><a href="#">Portraits & Caricatures</a></li>
+                    <li><a href="#">Cartoons & Comics</a></li>
+                    <li><a href="#">Tattoo Design</a></li>
+                    <li><a href="#">Banner Ads</a></li>
+                    <li><a href="#">Photoshop Editing</a></li>
+                    <li><a href="#">Architecture & Interior Design</a>
+                        <ul>
+                            <li><a href="#">Diagrams & Mapping</a></li>
+                            <li><a href="#">Virtual Staging</a></li>
+                            <li><a href="#">Planning & Design</a></li>
+                            <li><a href="#">3D Modeling & Rendering</a></li>
+                            <li><a href="#">2D Drawings & Floor Plans</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Landscape Design</a>
+                        <ul>
+                            <li><a href="#">Planning & Design</a></li>
+                            <li><a href="#">3D Modeling & Rendering</a></li>
+                            <li><a href="#">2D Drawings & Site Plans</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Building Information Modeling</a>
+                        <ul>
+                            <li><a href="#">BIM 4D Construction Simulation</a></li>
+                            <li><a href="#">BIM Online Training & Implementation</a></li>
+                            <li><a href="#">BIM Family Creation</a></li>
+                            <li><a href="#">BIM Coordination & Clash Detection</a></li>
+                            <li><a href="#">BIM 3D Modeling</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Character Modeling</a></li>
+                    <li><a href="#">3D Models & Product Design</a></li>
+                    <li><a href="#">T-Shirts & Merchandise</a></li>
+                    <li><a href="#">Presentation Design</a></li>
+                    <li><a href="#">Infographic Design</a></li>
+                    <li><a href="#">Car Wraps</a></li>
+                    <li><a href="#">Vector Tracing</a></li>
+                    <li><a href="#">Other</a></li>
+                </ol>
+            </div>
+
+            <div class="all-categories__list_item">
+                <div class="list-title">
                     Аудио и видео
                 </div>
+            <ol>
                 <li><a href="#" class="new">Voice Over</a></li>
                 <li><a href="#">Mixing & Mastering</a></li>
                 <li><a href="#">Producers & Composers</a></li>
@@ -400,10 +403,10 @@
                 <li><a href="#">Sound Effects</a></li>
                 <li><a href="#">Other</a></li>
             </ol>
-            <ol>
-                <div class="all-categories__list-title">
+                <div class="list-title">
                     Тексты и переводы
                 </div>
+            <ol>
                 <li><a href="#">Articles & Blog Posts</a></li>
                 <li><a href="#">Resume Writing</a></li>
                 <li><a href="#">Proofreading & Editing</a></li>
@@ -428,95 +431,98 @@
                 <li><a href="#">Transcripts</a></li>
                 <li><a href="#">Legal Writing</a></li>
             </ol>
-            </ol>
-            <ol>
-                <div class="all-categories__list-title">
+            </div>
+            <div class="all-categories__list_item">
+                <div class="list-title">
                     Разработка и IT
                 </div>
-                <li><a href="#"> WordPress</a>
-                    <ul>
-                        <li><a href="#">Full Website Creation</a></li>
-                        <li><a href="#">Customization</a></li>
-                        <li><a href="#">Bug Fixes</a></li>
-                        <li><a href="#">Landing Page</a></li>
-                        <li><a href="#">WP Installation & Setup</a></li>
-                        <li><a href="#">Performance & SEO</a></li>
-                        <li><a href="#">Backup, Cloning & Migration</a></li>
-                        <li><a href="#">Security</a></li>
-                        <li><a href="#">Help/Consultation</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Website Builders & CMS</a>
-                    <ul>
-                        <li><a href="#">Full Website Creation</a></li>
-                        <li><a href="#">Customization</a></li>
-                        <li><a href="#">Bug Fixes</a></li>
-                        <li><a href="#">Landing Page</a></li>
-                        <li><a href="#">Theme/Plugin Installation</a></li>
-                        <li><a href="#">Performance & Security</a></li>
-                        <li><a href="#">Backup, Cloning & Migration</a></li>
-                        <li><a href="#">Help/Consultation</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Game Development</a>
-                    <ul>
-                        <li><a href="#">Consultation</a></li>
-                        <li><a href="#">Backup & Migration</a></li>
-                        <li><a href="#">Customization</a></li>
-                        <li><a href="#">Prototyping</a></li>
-                        <li><a href="#">Full Game Creation</a></li>
-                        <li><a href="#">Bug Fixes</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Web Programming</a>
-                    <ul>
-                        <li><a href="#">Custom Website</a></li>
-                        <li><a href="#">Web Application</a></li>
-                        <li><a href="#">Bug Fixes</a></li>
-                        <li><a href="#">Browser Extensions</a></li>
-                        <li><a href="#">Email Template</a></li>
-                        <li><a href="#">Convert PSD</a></li>
-                        <li><a href="#">Scripting</a></li>
-                        <li><a href="#">Landing Page</a></li>
-                        <li><a href="#">Help/Consultation</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">E-Commerce Development</a>
-                    <ul>
-                        <li><a href="#">Full Website Creation</a></li>
-                        <li><a href="#">Customization</a></li>
-                        <li><a href="#">Bug Fixes</a></li>
-                        <li><a href="#">Theme/Plugin Installation</a></li>
-                        <li><a href="#">Performance & Security</a></li>
-                        <li><a href="#">Backup, Cloning & Migration</a></li>
-                        <li><a href="#">Help/Consultation</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Mobile Apps</a>
-                    <ul>
-                        <li><a href="#">Custom App</a></li>
-                        <li><a href="#">Convert Site to App</a></li>
-                        <li><a href="#">App Improvements</a></li>
-                        <li><a href="#">Bug Fix</a></li>
-                        <li><a href="#">Help/Consultation</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Desktop Applications</a>
-                    <ul>
-                        <li><a href="#">Custom Application</a></li>
-                        <li><a href="#">Application Improvements</a></li>
-                        <li><a href="#">Bug Fixes</a></li>
-                        <li><a href="#">Help/Consultation</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Support & IT</a></li>
-            </ol>
-            <ol>
-            <ol>
-                <div class="all-categories__list-title">
+                <ol>
+                    <li><a href="#"> WordPress</a>
+                        <ul>
+                            <li><a href="#">Full Website Creation</a></li>
+                            <li><a href="#">Customization</a></li>
+                            <li><a href="#">Bug Fixes</a></li>
+                            <li><a href="#">Landing Page</a></li>
+                            <li><a href="#">WP Installation & Setup</a></li>
+                            <li><a href="#">Performance & SEO</a></li>
+                            <li><a href="#">Backup, Cloning & Migration</a></li>
+                            <li><a href="#">Security</a></li>
+                            <li><a href="#">Help/Consultation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Website Builders & CMS</a>
+                        <ul>
+                            <li><a href="#">Full Website Creation</a></li>
+                            <li><a href="#">Customization</a></li>
+                            <li><a href="#">Bug Fixes</a></li>
+                            <li><a href="#">Landing Page</a></li>
+                            <li><a href="#">Theme/Plugin Installation</a></li>
+                            <li><a href="#">Performance & Security</a></li>
+                            <li><a href="#">Backup, Cloning & Migration</a></li>
+                            <li><a href="#">Help/Consultation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Game Development</a>
+                        <ul>
+                            <li><a href="#">Consultation</a></li>
+                            <li><a href="#">Backup & Migration</a></li>
+                            <li><a href="#">Customization</a></li>
+                            <li><a href="#">Prototyping</a></li>
+                            <li><a href="#">Full Game Creation</a></li>
+                            <li><a href="#">Bug Fixes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Web Programming</a>
+                        <ul>
+                            <li><a href="#">Custom Website</a></li>
+                            <li><a href="#">Web Application</a></li>
+                            <li><a href="#">Bug Fixes</a></li>
+                            <li><a href="#">Browser Extensions</a></li>
+                            <li><a href="#">Email Template</a></li>
+                            <li><a href="#">Convert PSD</a></li>
+                            <li><a href="#">Scripting</a></li>
+                            <li><a href="#">Landing Page</a></li>
+                            <li><a href="#">Help/Consultation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">E-Commerce Development</a>
+                        <ul>
+                            <li><a href="#">Full Website Creation</a></li>
+                            <li><a href="#">Customization</a></li>
+                            <li><a href="#">Bug Fixes</a></li>
+                            <li><a href="#">Theme/Plugin Installation</a></li>
+                            <li><a href="#">Performance & Security</a></li>
+                            <li><a href="#">Backup, Cloning & Migration</a></li>
+                            <li><a href="#">Help/Consultation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Mobile Apps</a>
+                        <ul>
+                            <li><a href="#">Custom App</a></li>
+                            <li><a href="#">Convert Site to App</a></li>
+                            <li><a href="#">App Improvements</a></li>
+                            <li><a href="#">Bug Fix</a></li>
+                            <li><a href="#">Help/Consultation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Desktop Applications</a>
+                        <ul>
+                            <li><a href="#">Custom Application</a></li>
+                            <li><a href="#">Application Improvements</a></li>
+                            <li><a href="#">Bug Fixes</a></li>
+                            <li><a href="#">Help/Consultation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Support & IT</a></li>
+                </ol>
+            </div>
+            <div class="all-categories__list_item">
+                <div class="list-title">
                     Реклама и маркетинг
                 </div>
-                <li><a href="#">Social Media Marketing</a>
+            <ol>
+                <li>
+                    <a href="#">Social Media Marketing</a>
                     <ul>
                         <li><a href="#">Consultation & Audience Research</a></li>
                         <li><a href="#">Profile Setup & Integration</a></li>
@@ -545,10 +551,10 @@
                 </li>
                 <li><a href="#">Content Marketing</a></li>
             </ol>
-            <ol>
-                <div class="all-categories__list-title">
+                <div class="list-title">
                     Тексты и переводы
                 </div>
+            <ol>
                 <li><a href="#">Articles & Blog Posts</a></li>
                 <li><a href="#">Resume Writing</a></li>
                 <li><a href="#">Proofreading & Editing</a></li>
@@ -573,7 +579,7 @@
                 <li><a href="#">Transcripts</a></li>
                 <li><a href="#">Legal Writing</a></li>
             </ol>
-            </ol>
+            </div>
         </div>
     </div>
 </div>
