@@ -56,6 +56,37 @@ h2.title{
     text-transform: uppercase;
     margin-top: 21px;
 }
+.home {
+    display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    background-color: #000000b5;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    width: 113px;
+    height: fit-content;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    transition: all 0.4s;
+    z-index: 3;
+}
+
+.home a {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.home:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
 .promo .promo_text{
     padding: 0 13px;
     margin-top: 23px;
