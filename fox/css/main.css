@@ -1,5 +1,6 @@
+
 html{
-    font-family: "Open Sans";
+    font-family: sans-serif;
     color: white;
     background:  url('../img/bg-header.png') top center no-repeat, url('../img/bg-footer.png') bottom center no-repeat;
     background-size: contain;
@@ -29,6 +30,12 @@ footer{
     clear: both;
     height: 154px;
 }
+.bt-hover{
+    transition: 0.4s;
+}
+.bt-hover:hover{
+    background: #ffffffb5;
+}
 .container{
     clear: both;
     width: 1024px;
@@ -50,21 +57,25 @@ nav {
 }
 
 .menu li{
-    font-family: "Open Sans";
     float: left;
     display: block;
-    margin-right: 47px;
 }
 .menu a {
     color: rgba(255, 255, 255, 0.702);
     text-decoration: none;
     font-size: 12px;
+    transition: 0.3s;
+    margin-right: 10px;
+    padding: 10px 15px;
+}
+.menu a:hover{
+    color: rgb(255, 255, 255);
 }
 .start-info{
     margin-top: 200px;
 }
 .info-style{
-    font-family: "Open Sans";
+    font-family: sans-serif;
     color: rgba(255, 255, 255, 0.702);
     width: 690px;
     margin-top: 39px;
@@ -128,7 +139,7 @@ nav {
     margin-bottom: 27px;
 }
 .advantages-block2{
-    font-family: "Open Sans";
+    font-family: sans-serif;
     font-size: 14px;
     width: 291px;
     float: left;
@@ -136,7 +147,7 @@ nav {
     margin-right: 75px;
 }
 .advantages-block1{
-    font-family: "Open Sans";
+    font-family: sans-serif;
     font-size: 14px;
     width: 291px;
     float: left;
@@ -160,7 +171,7 @@ nav {
 }
 .advantages-link{
     font-size: 17px;
-    font-family: "Open Sans semiBold";
+    font-family: sans-serif;
 }
 .advantages-img{
     margin-top: 3px;
@@ -182,7 +193,7 @@ nav {
     margin-top: 175px;
 }
 .num{
-    font-family: "Open Sans Light";
+    font-family: sans-serif;
     font-size: 48px;
     color: rgb(212, 211, 211);
     line-height: 1.2;
@@ -190,7 +201,7 @@ nav {
 }
 .stat-text{
     font-size: 12px;
-    font-family: "Open Sans";
+    font-family: sans-serif;
     color: rgb(171, 170, 170);
     line-height: 1.5;
 }
@@ -211,7 +222,7 @@ nav {
 }
 .steps p{
     font-size: 14px;
-    font-family: "Open Sans";
+    font-family: sans-serif;
     line-height: 1.714;
     color: rgb(147, 153, 159);
 }
@@ -302,6 +313,7 @@ nav {
 .imgss{
     text-align: center;
     float: left;
+    cursor: pointer;
     padding-right: 47px;
     line-height: 2.0;
     padding-left: 48px;
@@ -321,7 +333,7 @@ nav {
     margin-left: 68px;
     color: rgb(214, 213, 213);
     font-size: 15px;
-    font-family: "Open Sans";
+    font-family: sans-serif;
 }
 .check{
     margin-left: 64px;
