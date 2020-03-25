@@ -81,6 +81,37 @@ html{
     right:10px;
     background:url(http://siteis.ru/templates/siteis/images/close.png) no-repeat;
 }
+.home {
+    display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 0.3;
+    background-color: #000000b5;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    width: 113px;
+    height: fit-content;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    transition: all 0.4s;
+    z-index: 3;
+}
+
+.home a {
+    display: block;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.home:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
 .reg_form {
     margin-left: -500px;
     width: 1000px;

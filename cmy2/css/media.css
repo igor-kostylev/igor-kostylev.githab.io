@@ -173,10 +173,61 @@
     .menu-footer{
         margin-left: 0;
     }
+    .questions{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .footer__wrapper{
+        display: inline-flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .nav-footer{
+        padding: 0;
+    }
+    .footer__nav{
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
 }
-    /*.nav-footer{*/
-    /*    padding: 0;*/
-    /*}*/
+@media (max-width: 960px){
+    .h2-questions {
+        font-size: 23px;
+        display: inline-flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    form{
+        display: inline-flex;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 0 0 40px 147px;
+    }
+    .question-text {
+        font-size: 10px;
+    }
+    .questions-form {
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+    }
+    .questions-form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 888px) {
+    .questions-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 @media (max-width: 790px) {
 
     .header-title {
@@ -213,11 +264,11 @@
     .payment{
         height: auto;
     }
-    .a1{
+    .slider__item{
         display: flex!important;
         flex-direction: column;
     }
-    .a1-h2 {
+    .slider__item-h2 {
         text-align: center;
         margin: 30px auto 10px auto;
     }
@@ -250,6 +301,36 @@
     }
     .footer-logo {
         margin-top: 50px;
+    }
+    form {
+        padding: 0 0 40px 0;
+    }
+    .q-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        padding-right: 0;
+    }
+    .input-right, .input-left {
+        margin-right: 0;
+    }
+    .questions-input {
+        width: 100%;
+    }
+    .h2-questions {
+        padding: 47px 0 0;
+    }
+    .questions-bt {
+        width: fit-content;
+        height: fit-content;
+        margin: 20px auto 10px;
+    }
+    .questions-check {
+        margin-top: 0;
+    }
+    .footer__nav {
+        justify-content: space-around;
+        width: 100%;
     }
 }
 @media (max-width: 620px) {
@@ -348,6 +429,19 @@
 
 }
 
+@media (max-width: 425px) {
+    .menu-footer ,
+    .nav-footer ,
+    .footer-contacts{
+        font-size: 10px;
+    }
+    .menu-footer p,
+    .nav-footer p,
+    .footer-contacts p {
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 420px) {
     .header-title h1 {
         padding-top: 20px;
@@ -431,12 +525,6 @@
     .footer_col {
         flex-direction: column;
         text-align: center;
-    }
-    .nav-footer{
-        margin-top: 30px;
-    }
-    .footer-contacts{
-        padding-top: 30px;
     }
 }
 

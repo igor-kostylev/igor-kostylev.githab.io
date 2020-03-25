@@ -45,8 +45,8 @@ $(function () {
 });
     $(document).ready(function(){
         $('.gg').slick({
-            autoplay: true,
-            autoplaySpeed: 2000,
+            // autoplay: true,
+            // autoplaySpeed: 2000,
             // variableWidth: true,
             infinite: true,
             slidesToShow: 2,
@@ -67,9 +67,9 @@ $(function () {
     });
     });
 $(document).ready(function(){
-    $('.pay1').slick({
-        autoplay: true,
-        autoplaySpeed: 3000,
+    $('.payment__slider').slick({
+        // autoplay: true,
+        // autoplaySpeed: 3000,
         speed: 1000,
         infinite: true,
         arrows:false,
