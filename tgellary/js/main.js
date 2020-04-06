@@ -2,11 +2,14 @@ $(document).ready(function(){
 
     const menuNav = document.querySelector('.header__nav'),
         menuItem = document.querySelectorAll('header__nav_item'),
-        hamburger = document.querySelector('.hamburger');
+        hamburger = document.querySelector('.hamburger'),
+        scroll = document.querySelector('body');
+
 
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('hamburger_active');
         menuNav.classList.toggle('header__nav_active');
+        scroll.classList.toggle('scroll-menu');
     });
 
     menuItem.forEach(item => {
